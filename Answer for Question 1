@@ -1,0 +1,32 @@
+Question A
+SELECT ename, sal 
+FROM Empl 
+WHERE sal >= 2200;
+
+Question B
+SELECT * 
+FROM Empl 
+WHERE comm IS NULL;
+
+Question C
+SELECT ename, sal 
+FROM Empl 
+WHERE sal NOT BETWEEN 2500 AND 4000;
+
+Question D
+SELECT ename, job, sal 
+FROM Empl 
+WHERE mgr IS NULL;
+
+Question E
+SELECT ename 
+FROM Empl 
+WHERE ename LIKE '__A%';
+
+Question F
+SELECT ename 
+FROM Empl 
+WHERE ename LIKE '%T';
+
+
+
